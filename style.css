@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #fffb0c9e;
+    background: linear-gradient(45deg, rgb(255, 200, 0), rgb(67, 55, 1));
+
+}
+
+.formContainer{
+    background-image: url('/_02-yello_login/uelloForest.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 450px;
+    height:500px;
+    padding: 15px;
+    margin-top: 10vh;
+    margin-left: 30vw;
+    box-shadow: -10px -20px 10px;
+}
+
+.formInsideDiv{
+    width: 300px;
+    height: 350px;
+    display: grid;
+    background-color: #ffc8006b;
+    align-items: center;
+    position: relative;
+    left: 55px;
+    top: 55px;
+    border-radius: 10px;
+}
+
+label{
+    position: relative;
+    left: 18px;
+    top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+input{
+    width: 20vw;
+    height: 40px;
+    padding: 0px 10px;
+    margin-top: -10px;
+}
+
+
+.dataContainer{
+   position: relative;
+   left: 10px;
+}
+
+.dataContainer i{
+    position: relative;
+    left: -40px;
+ }
+
+ .dataContainer i,
+ input,
+ button
+ {
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid rgb(255, 98, 0);
+    border-radius: 10px;
+    background-color: #ffe100e0;
+    color: rgba(60, 0, 132, 0.874);
+    padding: 5px;
+ }
+
+
+ .dataContainer:hover i,
+ .dataContainer:hover input {
+     font-size: 18px;
+     font-weight: 700;
+     border: 2px solid rgba(220, 0, 37, 0.729);
+     border-radius: 12px;
+     background-color: #ffdd0290;
+     padding: 5px;
+     color: rgb(89, 0, 255);
+ }
+
+
+ .dataContainer i,
+ input::placeholder {
+    color: #f78205; 
+}
+
+input:hover::placeholder {
+    color: #6605f7dc; 
+}
+
+
+button{
+    width: 250px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    border:2px solid ;
+    border-radius: 10px;
+}
